@@ -1,0 +1,206 @@
+#if UNITY_EDITOR
+using UnityEditor;
+using UnityEngine;
+using System.IO;
+using System.Collections.Generic;
+public static class TextureMergeTool
+{
+    public static bool CheckLiltoonShader()
+    {
+        Shader liltoonShader = Shader.Find("lilToon");
+        if (liltoonShader == null)
+        {
+            Debug.LogError("未找到liltoon着色器");
+            return false;
+        }
+        return true;
+    }
+
+    public static string GetMaterialsSavePath(string parameterName = "")
+    {
+        string scriptPath = GetScriptPath();
+        string parentPath = Directory.GetParent(scriptPath).FullName;
+        string savesPath = Path.Combine(parentPath, "Saves");
+
+        if (!string.IsNullOrEmpty(parameterName))
+        {
+            savesPath = Path.Combine(savesPath, parameterName);
+        }
+
+        string materialsPath = Path.Combine(savesPath, "Materials");
+        materialsPath = materialsPath.Replace('\\', '/');
+        return GetRelativeAssetPath(materialsPath);
+    }
+
+    public static void MergeAllLayersAndCreateMaterials(Texture2D bottomLayerTexture, List<Texture2D> topLayerTextures, string parameterName)
+    {
+        if (topLayerTextures.Count == 0) return;
+        if (!CheckLiltoonShader()) return;
+
+        // 如果底部纹理不为空，确保可读写
+        if (bottomLayerTexture != null)
+            SetTextureReadable(bottomLayerTexture);
+
+        // 获取上一级目录
+        string scriptPath = GetScriptPath();
+        string parentPath = Directory.GetParent(scriptPath).FullName;
+        string savesPath = Path.Combine(parentPath, "Saves", parameterName);
+        string texturesPath = Path.Combine(savesPath, "Textures");
+        string materialsPath = Path.Combine(savesPath, "Materials");
+        savesPath = savesPath.Replace('\\', '/');
+        texturesPath = texturesPath.Replace('\\', '/');
+        materialsPath = materialsPath.Replace('\\', '/');
+
+        // 如果文件夹不存在，则创建
+        if (!Directory.Exists(savesPath)) Directory.CreateDirectory(savesPath);
+        if (!Directory.Exists(texturesPath)) Directory.CreateDirectory(texturesPath);
+        if (!Directory.Exists(materialsPath)) Directory.CreateDirectory(materialsPath);
+
+        // 获取相对于Assets目录的路径
+        string relativeSavesPath = GetRelativeAssetPath(savesPath);
+        string relativeTexturesPath = GetRelativeAssetPath(texturesPath);
+        string relativeMaterialsPath = GetRelativeAssetPath(materialsPath);
+
+        // 进度条
+        EditorUtility.DisplayProgressBar("Loading", "正在生成图片和材质...", 0);
+        try
+        {
+            for (int i = 0; i < topLayerTextures.Count; i++)
+            {
+                EditorUtility.DisplayProgressBar("Loading", $"正在处理图片 {i + 1}/{topLayerTextures.Count}", (float)i / topLayerTextures.Count);
+
+                if (topLayerTextures[i] == null) continue;
+                SetTextureReadable(topLayerTextures[i]);
+
+                Texture2D result;
+
+                if (bottomLayerTexture == null)
+                {
+                    // 如果底部图片为空，直接使用顶部图片
+                    result = new Texture2D(topLayerTextures[i].width, topLayerTextures[i].height, TextureFormat.ARGB32, false);
+                    result.SetPixels(topLayerTextures[i].GetPixels());
+                    result.Apply();
+                }
+                else
+                {
+                    int width = Mathf.Max(bottomLayerTexture.width, topLayerTextures[i].width);
+                    int height = Mathf.Max(bottomLayerTexture.height, topLayerTextures[i].height);
+                    result = new Texture2D(width, height, TextureFormat.ARGB32, false);
+
+                    // 合并
+                    for (int y = 0; y < height; y++)
+                    {
+                        for (int x = 0; x < width; x++)
+                        {
+                            Color bottomColor = GetPixelSafe(bottomLayerTexture, x, y);
+                            Color topColor = GetPixelSafe(topLayerTextures[i], x, y);
+                            Color finalColor = Color.Lerp(bottomColor, topColor, topColor.a);
+                            result.SetPixel(x, y, finalColor);
+                        }
+                    }
+                    result.Apply();
+                }
+
+                // 保存图片
+                string textureFilePath = Path.Combine(texturesPath, $"CombinedTextures_{i + 1}.png");
+                byte[] bytes = result.EncodeToPNG();
+                File.WriteAllBytes(textureFilePath, bytes);
+                //刷新
+                AssetDatabase.Refresh();
+                string relativeTexturePath = GetRelativeAssetPath(textureFilePath);
+                // 创建材质
+                CreateMaterialForTexture(relativeTexturePath, relativeMaterialsPath, i + 1);
+            }
+            EditorUtility.ClearProgressBar();
+            AssetDatabase.Refresh();
+
+            EditorUtility.DisplayDialog("Success!", $"图片和材质已保存至: {relativeSavesPath}", "确定");
+        }
+        catch (System.Exception e)
+        {
+            EditorUtility.ClearProgressBar();
+            EditorUtility.DisplayDialog("Error", "处理过程中发生错误: " + e.Message, "确定");
+        }
+    }
+
+    private static void CreateMaterialForTexture(string texturePath, string materialsPath, int index)
+    {
+        // 加载纹理
+        Texture2D combinedTexture = AssetDatabase.LoadAssetAtPath<Texture2D>(texturePath);
+        if (combinedTexture == null)
+        {
+            Debug.LogError($"无法加载纹理: {texturePath}");
+            return;
+        }
+        // 创建新材质
+        Shader liltoonShader = Shader.Find("lilToon");
+        Material material = new Material(liltoonShader);
+        material.SetTexture("_MainTex", combinedTexture);
+        string materialFileName = $"Material_{index}.mat";
+        string materialPath = Path.Combine(materialsPath, materialFileName).Replace('\\', '/');
+
+        if (!materialPath.StartsWith("Assets/"))
+        {
+            Debug.LogError($"无效的材质路径: {materialPath}");
+            return;
+        }
+
+        // 确保目录存在
+        string materialDir = Path.GetDirectoryName(materialPath);
+        if (!Directory.Exists(materialDir))
+        {
+            Directory.CreateDirectory(materialDir);
+            AssetDatabase.Refresh();
+        }
+        AssetDatabase.CreateAsset(material, materialPath);
+    }
+    private static string GetRelativeAssetPath(string absolutePath)
+    {
+        string assetsPath = Application.dataPath;
+        if (absolutePath.StartsWith(assetsPath))
+        {
+            return "Assets" + absolutePath.Substring(assetsPath.Length).Replace('\\', '/');
+        }
+        int assetsIndex = absolutePath.IndexOf("/Assets/");
+        if (assetsIndex >= 0)
+        {
+            return absolutePath.Substring(assetsIndex + 1).Replace('\\', '/');
+        }
+        return absolutePath.Replace('\\', '/');
+    }
+
+    private static Color GetPixelSafe(Texture2D tex, int x, int y)
+    {
+        if (tex == null || x < 0 || x >= tex.width || y < 0 || y >= tex.height)
+            return Color.clear;
+
+        return tex.GetPixel(x, y);
+    }
+
+    public static string GetScriptPath()
+    {
+        // 获取当前脚本的路径
+        string[] guids = AssetDatabase.FindAssets("TextureMergeTool");
+        if (guids.Length > 0)
+        {
+            string scriptPath = AssetDatabase.GUIDToAssetPath(guids[0]);
+            return Path.GetDirectoryName(scriptPath);
+        }
+        return "Assets";
+    }
+
+    private static void SetTextureReadable(Texture2D texture)
+    {
+        if (texture == null) return;
+
+        string path = AssetDatabase.GetAssetPath(texture);
+        TextureImporter importer = AssetImporter.GetAtPath(path) as TextureImporter;
+
+        if (importer != null && !importer.isReadable)
+        {
+            importer.isReadable = true;
+            AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate);
+        }
+    }
+}
+#endif
