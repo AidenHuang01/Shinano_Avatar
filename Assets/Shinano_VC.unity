@@ -406,6 +406,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1340397569098075073, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02461375fd8e48d429df1d522c53ed6f, type: 2}
     - target: {fileID: 1743567929956848381, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       propertyPath: blueprintId
@@ -446,6 +451,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4561256734288161898, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02461375fd8e48d429df1d522c53ed6f, type: 2}
+    - target: {fileID: 5538876120334029779, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02461375fd8e48d429df1d522c53ed6f, type: 2}
     - target: {fileID: 7492551626289600027, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       propertyPath: m_Name
