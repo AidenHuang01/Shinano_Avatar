@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Marker
+  m_EditorClassIdentifier: 
+  controls:
+  - name: "\u7B14\u5F00\u5173"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CC2/Marker/Pen
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u7B14"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CC2/Marker/PenSelect
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u6A61\u76AE\u64E6"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CC2/Marker/EraserSelect
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u7B14\u989C\u8272"
+    icon: {fileID: 0}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: CC2/Marker/PenColor
+    labels: []
+  - name: "\u8DEF\u6807\u5F00\u5173"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CC2/Marker/Trail
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u8DEF\u5F84\u7ED8\u5236"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: CC2/Marker/TrailDraw
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u4F4D\u7F6E\u6807\u8BB0"
+    icon: {fileID: 2800000, guid: f7d1e8ddeae71dd44a32d920352aa6f4, type: 3}
+    type: 102
+    parameter:
+      name: CC2/Marker/Active
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
