@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: Eye Poke
+    icon: {fileID: 2800000, guid: 11cf521adc355eb45afb5e99464b4366, type: 3}
+    type: 102
+    parameter:
+      name: Exp+/EyeTouchToggle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Headpat
+    icon: {fileID: 2800000, guid: 081db6cb8ae79344bbfdf82c88ffc52f, type: 3}
+    type: 102
+    parameter:
+      name: Exp+/HeadpatToggle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Cheek Stretch
+    icon: {fileID: 2800000, guid: ef9668de7d9845e4cadbc61e34cc8881, type: 3}
+    type: 102
+    parameter:
+      name: Exp+/CheekStretchToggle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Quick Control
+    icon: {fileID: 2800000, guid: 65cfbca6e7a334740b6c0d37511e177a, type: 3}
+    type: 102
+    parameter:
+      name: Exp+/QuickControlToggle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Jelly Blink
+    icon: {fileID: 2800000, guid: 57481f4b0b0dd864b96d911441b631c0, type: 3}
+    type: 102
+    parameter:
+      name: Exp+/JellyBlinkToggle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

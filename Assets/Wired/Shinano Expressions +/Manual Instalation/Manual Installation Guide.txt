@@ -1,0 +1,23 @@
+By choosing this installation method over Modular Avatar I am a assuming you know what you are doing. Instructions are going to be simple and straightforward:
+
+1 - Drag the prefab into your avatar and add the missing constraint sources (Head and Spine);
+2 - Merge the FX Layer to your avatar;
+3 - Copy the parameters;
+4 - Add the submenu;
+5 - Inside your avatar's FX layer, set the weight of Left Hand and Right Hand to 0;
+6 - Under VRC Avatar Descriptor, set the blink animation to none.
+
+Optional: You can add the Eye Control Gimmick by merging its FX layer and syncing all the parameters inside it.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Modular Avatarではなく、このインストール方法を選択することで、私はあなたが何をしているかを知っていると仮定している。指示はシンプルでわかりやすいだろう。
+
+1 - プレハブをアバターにドラッグし、足りないコンストレイントソース（HeadとSpine）を追加します；
+2 - FXレイヤーをアバターにマージします；
+3 - パラメータをコピーします；
+4 - サブメニューを追加します；
+5 - アバターのFXレイヤー内で、Left HandとRight Handのウェイトを0に設定します；
+6 - VRC Avatar Descriptorで、blinkアニメーションをnoneに設定します。
+
+オプション：アイ・コントロール・ギミックを追加するには、そのFXレイヤーをマージし、その中のすべてのパラメーターを同期させます。
