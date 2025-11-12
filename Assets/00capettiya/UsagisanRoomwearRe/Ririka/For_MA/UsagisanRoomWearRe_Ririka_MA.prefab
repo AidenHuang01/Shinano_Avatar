@@ -1,0 +1,393 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4519513344141943982
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 562042503492744031, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_TranslationOffset.y
+      value: -0.11780241
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878148526340740748, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_TranslationOffset.y
+      value: -0.12587395
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200936298498825603, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_TranslationOffset.y
+      value: -0.119828194
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520070100885993755, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_TranslationOffset.y
+      value: -0.126353
+      objectReference: {fileID: 0}
+    - target: {fileID: 4545921020825352585, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_TranslationOffset.y
+      value: -0.1309785
+      objectReference: {fileID: 0}
+    - target: {fileID: 4693525625586302818, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00016118586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4693525625586302818, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00016088784
+      objectReference: {fileID: 0}
+    - target: {fileID: 4693525625586302818, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.00017546117
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835277835215443452, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_Name
+      value: UsagisanRoomWearRe_Ririka_MA
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606994967372648262, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606994967372648262, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606994967372648262, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606994967372648262, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606994967372648262, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606994967372648262, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606994967372648262, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606994967372648262, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606994967372648262, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606994967372648262, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8077397039751049851, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_TranslationOffset.y
+      value: -0.12787285
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251509700717652804, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0001610517
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251509700717652804, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00016084309
+      objectReference: {fileID: 0}
+    - target: {fileID: 8380695463713315603, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5506691
+      objectReference: {fileID: 0}
+    - target: {fileID: 8380695463713315603, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.44358036
+      objectReference: {fileID: 0}
+    - target: {fileID: 8380695463713315603, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.55066955
+      objectReference: {fileID: 0}
+    - target: {fileID: 9023995517704595449, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5506693
+      objectReference: {fileID: 0}
+    - target: {fileID: 9023995517704595449, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.4435801
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5835277835215443452, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7703747265341098826}
+    - targetCorrespondingSourceObject: {fileID: 5835277835215443452, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6643344659811761224}
+    - targetCorrespondingSourceObject: {fileID: 5835277835215443452, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 824615774398088402}
+    - targetCorrespondingSourceObject: {fileID: 5835277835215443452, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6231395823551908039}
+    - targetCorrespondingSourceObject: {fileID: 8795259910238909245, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8223992007519399850}
+  m_SourcePrefab: {fileID: 100100000, guid: 9850a3cc1db07fc45abe19d376ec4bd6, type: 3}
+--- !u!1 &4951570604377626515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8795259910238909245, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+    type: 3}
+  m_PrefabInstance: {fileID: 4519513344141943982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8223992007519399850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4951570604377626515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2df373bf91cf30b4bbd495e11cb1a2ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mergeTarget:
+    referencePath: Armature
+    targetObject: {fileID: 0}
+  prefix: 
+  suffix: (UsagisanRoomWearRe)
+  legacyLocked: 0
+  LockMode: 2
+  mangleNames: 1
+--- !u!1 &7945364826770764114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5835277835215443452, guid: 9850a3cc1db07fc45abe19d376ec4bd6,
+    type: 3}
+  m_PrefabInstance: {fileID: 4519513344141943982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7703747265341098826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945364826770764114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 560fdafd46c74b2db6422fdf0e7f2363, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InheritProbeAnchor: 3
+  ProbeAnchor:
+    referencePath: Armature/Hips
+    targetObject: {fileID: 0}
+  InheritBounds: 3
+  RootBone:
+    referencePath: Armature/Hips
+    targetObject: {fileID: 0}
+  Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+--- !u!114 &6643344659811761224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945364826770764114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ef83cb0c23d4d7c9d41021e544a1978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuToAppend: {fileID: 11400000, guid: 155debed37e28334db732a164b86fa76, type: 2}
+  installTargetMenu: {fileID: 0}
+--- !u!114 &824615774398088402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945364826770764114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb122659f724ebf85fe095ac02dc339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 9100000, guid: 84e1ac0e377f2704c9340a177ad0088e, type: 2}
+  layerType: 5
+  deleteAttachedAnimator: 0
+  pathMode: 0
+  matchAvatarWriteDefaults: 1
+  relativePathRoot:
+    referencePath: 
+    targetObject: {fileID: 0}
+  layerPriority: 0
+--- !u!114 &6231395823551908039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945364826770764114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a96d4ea0c344f39e277d82035bf9bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - nameOrPrefix: URWR_DrawersPB
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 1
+    saved: 0
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: URWR_Cardigan
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 1
+    saved: 1
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: URWR_DrawersEX
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 0
+    saved: 1
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: URWR_Drawers
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 1
+    saved: 0
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: URWR_Camisole
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 1
+    saved: 0
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: URWR_HeadRibbon
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 1
+    saved: 1
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: URWR_GarterRing
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 1
+    saved: 1
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: URWR_GarterRing_L
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 0
+    saved: 1
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: URWR_GarterRing_R
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 1
+    saved: 1
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: URWR_Slipper
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 1
+    saved: 1
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: Cardigan_Collider
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 1
+    saved: 1
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0
+  - nameOrPrefix: URWR_Katahimo
+    remapTo: 
+    internalParameter: 0
+    isPrefix: 0
+    syncType: 3
+    localOnly: 0
+    defaultValue: 1
+    saved: 1
+    hasExplicitDefaultValue: 0
+    m_overrideAnimatorDefaults: 0

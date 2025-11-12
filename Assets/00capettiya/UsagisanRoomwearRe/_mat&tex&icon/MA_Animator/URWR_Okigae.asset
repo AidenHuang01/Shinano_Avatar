@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: URWR_Okigae
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Cardigan
+    icon: {fileID: 2800000, guid: b6e47b0cf5b1e6740a0c7777d5d983c4, type: 3}
+    type: 102
+    parameter:
+      name: URWR_Cardigan
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Slipper
+    icon: {fileID: 2800000, guid: 7fcc03e0ae0279345b51aa59126de36f, type: 3}
+    type: 102
+    parameter:
+      name: URWR_Slipper
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: HeadRibbon
+    icon: {fileID: 2800000, guid: c7aa26563c2ebdc408d727363420dac3, type: 3}
+    type: 102
+    parameter:
+      name: URWR_HeadRibbon
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Drawers
+    icon: {fileID: 2800000, guid: 31b65f6fe58b6324f886254fc2c3f228, type: 3}
+    type: 102
+    parameter:
+      name: URWR_Drawers
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: GarterRing_R
+    icon: {fileID: 2800000, guid: 3a72194f355a7be4dbec6c85514dd0ba, type: 3}
+    type: 102
+    parameter:
+      name: URWR_GarterRing_R
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: GarterRing_L
+    icon: {fileID: 2800000, guid: 3a72194f355a7be4dbec6c85514dd0ba, type: 3}
+    type: 102
+    parameter:
+      name: URWR_GarterRing_L
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u80A9\u7D10"
+    icon: {fileID: 2800000, guid: 249274943c4afa8479e9db632b952424, type: 3}
+    type: 102
+    parameter:
+      name: URWR_Katahimo
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u304A\u7740\u63DB\u3048\uFF12"
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: d30e6b91fc64a314ebaa4fdc8d0e9aca, type: 2}
+    subParameters: []
+    labels: []
