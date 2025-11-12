@@ -1,0 +1,1 @@
+You need to add FullController into root object of avatar. Please see https://docs.google.com/document/u/3/d/e/2PACX-1vRu_DvuhO_SVBTXFWN_3lwpUEKaOVtT8PTe-F485cvUrKmeRR7JlJA9Q6ZPHOsUDCxVfemRvEKjvbHH/pub

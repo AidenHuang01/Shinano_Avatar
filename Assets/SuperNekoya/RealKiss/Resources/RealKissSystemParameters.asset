@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1506855854, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: RealKissSystemParameters
+  m_EditorClassIdentifier: 
+  isEmpty: 0
+  parameters:
+  - name: superneko.realkiss.mode
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: superneko.realkiss.auto.getleadertiming_nosync
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: superneko.realkiss.auto.needsleader_nosync
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: superneko.realkiss.contact.mouth
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: superneko.realkiss.contact.activator
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: superneko.realkiss.contact.mouth.remotetoremote_nosync
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: superneko.realkiss.contact.leader_nosync
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: superneko.realkiss.isleader_nosync
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: superneko.realkiss.dps.bindtoorifice
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: superneko.realkiss.contact.dpsactivator
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: superneko.realkiss.status
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: superneko.realkiss.custom.expression.enabled
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
