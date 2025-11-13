@@ -34,3 +34,13 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: 707b564a5514919449c43e4c96ba108d, type: 2}
     subParameters: []
     labels: []
+  - name: Aoba
+    icon: {fileID: 2800000, guid: fd19358199e675d41ba0c18c0e3944b6, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 414eaa478c109a649bc514c8718f0dc7, type: 2}
+    subParameters: []
+    labels: []

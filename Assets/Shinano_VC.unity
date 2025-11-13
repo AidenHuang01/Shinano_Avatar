@@ -196,10 +196,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5023815077851820434, guid: 2a85693cc79a9504a94368ed46a6c523,
+        type: 3}
+      propertyPath: installTargetMenu
+      value: 
+      objectReference: {fileID: 11400000, guid: 414eaa478c109a649bc514c8718f0dc7,
+        type: 2}
     - target: {fileID: 5326950306000550756, guid: 2a85693cc79a9504a94368ed46a6c523,
         type: 3}
       propertyPath: m_Name
       value: UsagisanRoomWearRe_Shinano_MA
+      objectReference: {fileID: 0}
+    - target: {fileID: 5326950306000550756, guid: 2a85693cc79a9504a94368ed46a6c523,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7145207154006438944, guid: 2a85693cc79a9504a94368ed46a6c523,
         type: 3}
@@ -398,6 +409,116 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &558719384
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 931440783}
+    m_Modifications:
+    - target: {fileID: 2737278957343118977, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Actinoir_(Blue)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737278957343118977, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3366181347933998139, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3366181347933998139, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3366181347933998139, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3366181347933998139, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3366181347933998139, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3366181347933998139, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3366181347933998139, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3366181347933998139, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3366181347933998139, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3366181347933998139, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4970151291730153382, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: RootBone.targetObject
+      value: 
+      objectReference: {fileID: 931440781}
+    - target: {fileID: 4970151291730153382, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: ProbeAnchor.targetObject
+      value: 
+      objectReference: {fileID: 931440781}
+    - target: {fileID: 5266891945747566880, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: mergeTarget.targetObject
+      value: 
+      objectReference: {fileID: 931440780}
+    - target: {fileID: 6772463593613277313, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_shapes.Array.data[0].Object.targetObject
+      value: 
+      objectReference: {fileID: 1986160384}
+    - target: {fileID: 6772463593613277313, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_shapes.Array.data[1].Object.targetObject
+      value: 
+      objectReference: {fileID: 1986160384}
+    - target: {fileID: 8553461758380817961, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_shapes.Array.data[0].Object.targetObject
+      value: 
+      objectReference: {fileID: 1986160384}
+    m_RemovedComponents:
+    - {fileID: 3783110835304295574, guid: ade2bd096665f9548a6f76c7ddfcacd2, type: 3}
+    - {fileID: 6772463593613277313, guid: ade2bd096665f9548a6f76c7ddfcacd2, type: 3}
+    - {fileID: 8553461758380817961, guid: ade2bd096665f9548a6f76c7ddfcacd2, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2737278957343118977, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1078363920}
+  m_SourcePrefab: {fileID: 100100000, guid: ade2bd096665f9548a6f76c7ddfcacd2, type: 3}
 --- !u!1001 &896868833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -641,10 +762,14 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       insertIndex: 0
-      addedObject: {fileID: 1115883838}
+      addedObject: {fileID: 1078363919}
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       insertIndex: 1
+      addedObject: {fileID: 1115883838}
+    - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      insertIndex: 2
       addedObject: {fileID: 293166700}
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
@@ -1008,6 +1133,102 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 996854940}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1078363918 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2737278957343118977, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 558719384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1078363919 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3366181347933998139, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 558719384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1078363920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078363918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1267.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8600689208495964167
+  references:
+    version: 2
+    RefIds:
+    - rid: 8600689208495964167
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Aoba/Actinoir
+        state:
+          actions:
+          - rid: 8600689208495964168
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 8600689208495964168
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 1078363918}
+        mode: 0
 --- !u!1001 &1115883837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1401,6 +1622,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8959473256787943848, guid: d4bea08de07314b49882dc26c36f67c4,
     type: 3}
   m_PrefabInstance: {fileID: 1406918442}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1986160384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5981303152927142635, guid: a0f3ced80a65ee64cbc31500a497fe44,
+    type: 3}
+  m_PrefabInstance: {fileID: 931440778}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2050020097
 PrefabInstance:

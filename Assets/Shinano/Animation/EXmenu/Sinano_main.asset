@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: Sinano_main
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
   controls:
   - name: Facial_set
     icon: {fileID: 2800000, guid: 2e15f60602810d745866d8a8618ac313, type: 3}
