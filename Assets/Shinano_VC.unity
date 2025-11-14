@@ -273,6 +273,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 293166699}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &354558934 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4130087243003177792, guid: a0f3ced80a65ee64cbc31500a497fe44,
+    type: 3}
+  m_PrefabInstance: {fileID: 931440778}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &414558663
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +483,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3813702421339384711, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4970151291730153382, guid: ade2bd096665f9548a6f76c7ddfcacd2,
         type: 3}
       propertyPath: RootBone.targetObject
@@ -509,8 +520,8 @@ PrefabInstance:
       objectReference: {fileID: 1986160384}
     m_RemovedComponents:
     - {fileID: 3783110835304295574, guid: ade2bd096665f9548a6f76c7ddfcacd2, type: 3}
-    - {fileID: 6772463593613277313, guid: ade2bd096665f9548a6f76c7ddfcacd2, type: 3}
     - {fileID: 8553461758380817961, guid: ade2bd096665f9548a6f76c7ddfcacd2, type: 3}
+    - {fileID: 6772463593613277313, guid: ade2bd096665f9548a6f76c7ddfcacd2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -518,7 +529,33 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1078363920}
+    - targetCorrespondingSourceObject: {fileID: 2737278957343118977, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1078363922}
+    - targetCorrespondingSourceObject: {fileID: 2737278957343118977, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1078363924}
   m_SourcePrefab: {fileID: 100100000, guid: ade2bd096665f9548a6f76c7ddfcacd2, type: 3}
+--- !u!1 &703993036 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3813702421339384711, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 558719384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &744010305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 57350722777917655, guid: ade2bd096665f9548a6f76c7ddfcacd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 558719384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &807026345 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8770381974711588151, guid: a0f3ced80a65ee64cbc31500a497fe44,
+    type: 3}
+  m_PrefabInstance: {fileID: 931440778}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &896868833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -676,10 +713,20 @@ PrefabInstance:
       propertyPath: customEyeLookSettings.eyelidsBlendshapes.Array.data[0]
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 3314693762015530540, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: cachedExecutionGroupIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3314693762015530540, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: latestValidExecutionGroupIndex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4130087243003177792, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4561256734288161898, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
@@ -749,7 +796,17 @@ PrefabInstance:
     - target: {fileID: 8770381974711588151, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8807687231375428847, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: cachedExecutionGroupIndex
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8807687231375428847, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: latestValidExecutionGroupIndex
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9050602145681749528, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
@@ -762,14 +819,22 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       insertIndex: 0
-      addedObject: {fileID: 1078363919}
+      addedObject: {fileID: 2038680208}
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       insertIndex: 1
-      addedObject: {fileID: 1115883838}
+      addedObject: {fileID: 2105171918}
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       insertIndex: 2
+      addedObject: {fileID: 1078363919}
+    - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1115883838}
+    - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      insertIndex: 4
       addedObject: {fileID: 293166700}
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
@@ -1133,6 +1198,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 996854940}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1064745241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1868495754930583181, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+    type: 3}
+  m_PrefabInstance: {fileID: 1588952089}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1078363918 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2737278957343118977, guid: ade2bd096665f9548a6f76c7ddfcacd2,
@@ -1172,10 +1243,12 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Aoba/Actinoir
+        name: Aoba/Actinoir/Costume_ON
         state:
           actions:
           - rid: 8600689208495964168
+          - rid: 8600689208495964169
+          - rid: 8600689208495964170
         saved: 1
         slider: 0
         sliderInactiveAtZero: 0
@@ -1183,8 +1256,8 @@ MonoBehaviour:
         defaultOn: 0
         includeInRest: 0
         exclusiveOffState: 0
-        enableExclusiveTag: 0
-        exclusiveTag: 
+        enableExclusiveTag: 1
+        exclusiveTag: Clothing
         resetPhysbones: []
         hasExitTime: 0
         enableIcon: 0
@@ -1229,6 +1302,224 @@ MonoBehaviour:
         remoteOnly: 0
         obj: {fileID: 1078363918}
         mode: 0
+    - rid: 8600689208495964169
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Shrink_Foot
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 8600689208495964170
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Shrink_Ankle
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+--- !u!114 &1078363922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078363918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1267.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8600689208495964171
+  references:
+    version: 2
+    RefIds:
+    - rid: 8600689208495964171
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Aoba/Actinoir/Shoes_OFF
+        state:
+          actions:
+          - rid: 8600689208495964173
+          - rid: 8600689208495964174
+          - rid: 8600689208495964175
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 8600689208495964173
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 744010305}
+        mode: 1
+    - rid: 8600689208495964174
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Shrink_Ankle
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 8600689208495964175
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Shrink_Foot
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+--- !u!114 &1078363924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078363918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1267.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8600689214825168911
+  references:
+    version: 2
+    RefIds:
+    - rid: 8600689214825168911
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Aoba/Actinoir/Hat_OFF
+        state:
+          actions:
+          - rid: 8600689214825168913
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 8600689214825168913
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 703993036}
+        mode: 1
 --- !u!1001 &1115883837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1623,12 +1914,430 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1406918442}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1588952089
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 931440783}
+    m_Modifications:
+    - target: {fileID: 441199456994702001, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441199456994702001, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441199456994702001, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441199456994702001, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441199456994702001, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441199456994702001, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441199456994702001, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441199456994702001, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441199456994702001, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441199456994702001, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 812633605273379192, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+        type: 3}
+      propertyPath: m_Name
+      value: StayHome_Inner_Shinano (PhysBone_medium)
+      objectReference: {fileID: 0}
+    - target: {fileID: 812633605273379192, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 812633605273379192, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2105171920}
+    - targetCorrespondingSourceObject: {fileID: 812633605273379192, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2105171919}
+  m_SourcePrefab: {fileID: 100100000, guid: 518ab2a9eb4cf0e46a4645d701ef6ace, type: 3}
+--- !u!1001 &1707070704
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 931440783}
+    m_Modifications:
+    - target: {fileID: 499217989067914392, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_Name
+      value: StayHome_Cardigan_Shinano
+      objectReference: {fileID: 0}
+    - target: {fileID: 499217989067914392, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2361548119964336437, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0004887677
+      objectReference: {fileID: 0}
+    - target: {fileID: 2361548119964336437, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.115640126
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466908769192171253, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00048919447
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466908769192171253, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.11564003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466908769192171253, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0023256415
+      objectReference: {fileID: 0}
+    - target: {fileID: 2627019498557185092, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00052889896
+      objectReference: {fileID: 0}
+    - target: {fileID: 2627019498557185092, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0987556
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468532902787797821, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468532902787797821, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468532902787797821, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468532902787797821, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468532902787797821, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468532902787797821, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468532902787797821, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468532902787797821, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468532902787797821, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468532902787797821, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4535826075801338044, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0008237407
+      objectReference: {fileID: 0}
+    - target: {fileID: 4535826075801338044, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.12461441
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746882507637749730, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00082361524
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746882507637749730, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.12461415
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439766387446645930, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09606977
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442793651418166032, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00015803592
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442793651418166032, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.035391737
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427528328014228638, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00015807603
+      objectReference: {fileID: 0}
+    - target: {fileID: 7427528328014228638, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0353914
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991313367234628033, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0005282772
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991313367234628033, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.09875391
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991313367234628033, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0023169767
+      objectReference: {fileID: 0}
+    - target: {fileID: 8167878696601310361, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.083755866
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 499217989067914392, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2038680210}
+    - targetCorrespondingSourceObject: {fileID: 499217989067914392, guid: d5dcab9aa7909034393ff504afda1606,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2038680209}
+  m_SourcePrefab: {fileID: 100100000, guid: d5dcab9aa7909034393ff504afda1606, type: 3}
+--- !u!1 &1807290679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6890920803334715913, guid: d5dcab9aa7909034393ff504afda1606,
+    type: 3}
+  m_PrefabInstance: {fileID: 1707070704}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1986160384 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5981303152927142635, guid: a0f3ced80a65ee64cbc31500a497fe44,
     type: 3}
   m_PrefabInstance: {fileID: 931440778}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2038680207 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 499217989067914392, guid: d5dcab9aa7909034393ff504afda1606,
+    type: 3}
+  m_PrefabInstance: {fileID: 1707070704}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2038680208 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4468532902787797821, guid: d5dcab9aa7909034393ff504afda1606,
+    type: 3}
+  m_PrefabInstance: {fileID: 1707070704}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2038680209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038680207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1267.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8600689214825168905
+  references:
+    version: 2
+    RefIds:
+    - rid: 8600689214825168905
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 7
+        propBone: {fileID: 1807290679}
+        linkTo:
+        - useBone: 1
+          bone: 0
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        removeBoneSuffix: 
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 1
+        alignPosition: 1
+        alignRotation: 1
+        alignScale: 1
+        autoScaleFactor: 1
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
+--- !u!114 &2038680210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038680207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1267.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8600689214825168909
+  references:
+    version: 2
+    RefIds:
+    - rid: 8600689214825168909
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Aoba/Stayhome/Jacket_ON
+        state:
+          actions:
+          - rid: 8600689214825168910
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 8600689214825168910
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 2038680207}
+        mode: 0
 --- !u!1001 &2050020097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1723,6 +2432,204 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2050020097}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2105171917 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 812633605273379192, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+    type: 3}
+  m_PrefabInstance: {fileID: 1588952089}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2105171918 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 441199456994702001, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,
+    type: 3}
+  m_PrefabInstance: {fileID: 1588952089}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2105171919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105171917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1267.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8600689214825168898
+  references:
+    version: 2
+    RefIds:
+    - rid: 8600689214825168898
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 7
+        propBone: {fileID: 1064745241}
+        linkTo:
+        - useBone: 1
+          bone: 0
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        removeBoneSuffix: 
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 1
+        alignPosition: 1
+        alignRotation: 1
+        alignScale: 1
+        autoScaleFactor: 1
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
+--- !u!114 &2105171920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105171917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1267.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8600689214825168896
+  references:
+    version: 2
+    RefIds:
+    - rid: 8600689214825168896
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Aoba/Stayhome/Costume_ON
+        state:
+          actions:
+          - rid: 8600689214825168897
+          - rid: 8600689214825168899
+          - rid: 8600689214825168900
+          - rid: 8600689214825168901
+          - rid: 8600689214825168902
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 1
+        exclusiveTag: Clothing
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 8600689214825168897
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 2105171917}
+        mode: 0
+    - rid: 8600689214825168899
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 354558934}
+        mode: 1
+    - rid: 8600689214825168900
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 807026345}
+        mode: 1
+    - rid: 8600689214825168901
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Breasts_big
+        blendShapeValue: 60
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 8600689214825168902
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hip_big
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
 --- !u!4 &2112971304 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7015165512275268091, guid: a0f3ced80a65ee64cbc31500a497fe44,
