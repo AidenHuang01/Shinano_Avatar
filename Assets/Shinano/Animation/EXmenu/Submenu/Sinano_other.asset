@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: Sinano_other
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: d237237e625f20f4dbf83062cb1eb6e6, type: 2}
   controls:
   - name: Backlit_ON
     icon: {fileID: 2800000, guid: 8722a00944f55aa43acfe022297ccdf1, type: 3}
@@ -21,5 +22,15 @@ MonoBehaviour:
     value: 1
     style: 0
     subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Facial_parts
+    icon: {fileID: 2800000, guid: 7a53f19c2031c014a8cf3fb39ffe9e8f, type: 3}
+    type: 103
+    parameter:
+      name: Backlit
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 587ff11cc08443046bbeed36ac034dda, type: 2}
     subParameters: []
     labels: []

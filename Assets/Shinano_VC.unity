@@ -129,6 +129,51 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1558075814}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &211360064 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4456073496206711601, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2093569796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &266785745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211360064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db441f589c3407bb6fb5f02ff8ab541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_inverted: 0
+  m_shapes:
+  - Object:
+      referencePath: Body_base
+      targetObject: {fileID: 1986160384}
+    ShapeName: Shrink_Elbow
+    ChangeType: 1
+    Value: 100
+  - Object:
+      referencePath: Body_base
+      targetObject: {fileID: 1986160384}
+    ShapeName: Shrink_Low_arm
+    ChangeType: 1
+    Value: 100
+  - Object:
+      referencePath: Body_base
+      targetObject: {fileID: 1986160384}
+    ShapeName: Shrink_Upper_arm
+    ChangeType: 1
+    Value: 100
+  - Object:
+      referencePath: Body_base
+      targetObject: {fileID: 1986160384}
+    ShapeName: Shrink_Shoulder
+    ChangeType: 1
+    Value: 100
+  m_threshold: 0.01
 --- !u!1001 &293166699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -216,7 +261,7 @@ PrefabInstance:
     - target: {fileID: 5326950306000550756, guid: 2a85693cc79a9504a94368ed46a6c523,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7145207154006438944, guid: 2a85693cc79a9504a94368ed46a6c523,
         type: 3}
@@ -533,7 +578,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 3783110835304295574, guid: ade2bd096665f9548a6f76c7ddfcacd2, type: 3}
     - {fileID: 8553461758380817961, guid: ade2bd096665f9548a6f76c7ddfcacd2, type: 3}
-    - {fileID: 6772463593613277313, guid: ade2bd096665f9548a6f76c7ddfcacd2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -787,6 +831,56 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6812237261017288463, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[24]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812237261017288463, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[25]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812237261017288463, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[26]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812237261017288463, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[27]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812237261017288463, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[35]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812237261017288463, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[36]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812237261017288463, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[37]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812237261017288463, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[38]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812237261017288463, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[39]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812237261017288463, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[40]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7492551626289600027, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       propertyPath: m_Name
@@ -868,30 +962,34 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       insertIndex: 0
-      addedObject: {fileID: 1836955130}
+      addedObject: {fileID: 2093569797}
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       insertIndex: 1
-      addedObject: {fileID: 1292453955}
+      addedObject: {fileID: 1836955130}
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       insertIndex: 2
-      addedObject: {fileID: 2038680208}
+      addedObject: {fileID: 1292453955}
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       insertIndex: 3
-      addedObject: {fileID: 2105171918}
+      addedObject: {fileID: 2038680208}
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       insertIndex: 4
-      addedObject: {fileID: 1078363919}
+      addedObject: {fileID: 2105171918}
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       insertIndex: 5
-      addedObject: {fileID: 1115883838}
+      addedObject: {fileID: 1078363919}
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
       insertIndex: 6
+      addedObject: {fileID: 1115883838}
+    - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
+        type: 3}
+      insertIndex: 7
       addedObject: {fileID: 293166700}
     - targetCorrespondingSourceObject: {fileID: 7832099146100378785, guid: a0f3ced80a65ee64cbc31500a497fe44,
         type: 3}
@@ -1837,6 +1935,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 931440783}
     m_Modifications:
+    - target: {fileID: 1167614190316000474, guid: 6de689499d49f7141b9fb5035ee1dfc7,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1167614190316000474, guid: 6de689499d49f7141b9fb5035ee1dfc7,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1616942398807995590, guid: 6de689499d49f7141b9fb5035ee1dfc7,
         type: 3}
       propertyPath: mergeTarget.targetObject
@@ -2247,6 +2355,60 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1406918442}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1511955206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8363920493473777918, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2093569796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1511955207 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5077291812409409390, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2093569796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1511955208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511955206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db441f589c3407bb6fb5f02ff8ab541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_inverted: 0
+  m_shapes:
+  - Object:
+      referencePath: Body_base
+      targetObject: {fileID: 1986160384}
+    ShapeName: Shrink_Ankle
+    ChangeType: 1
+    Value: 100
+  m_threshold: 0.01
+--- !u!114 &1511955209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511955207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db441f589c3407bb6fb5f02ff8ab541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_inverted: 0
+  m_shapes:
+  - Object:
+      referencePath: Body_base
+      targetObject: {fileID: 1986160384}
+    ShapeName: Shrink_Spine_2
+    ChangeType: 1
+    Value: 30
+  m_threshold: 0.01
 --- !u!1001 &1558075814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3515,6 +3677,233 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2050020097}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2093569796
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 931440783}
+    m_Modifications:
+    - target: {fileID: 194539185602690071, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: mergeTarget.targetObject
+      value: 
+      objectReference: {fileID: 931440780}
+    - target: {fileID: 3935292375766614411, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935292375766614411, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935292375766614411, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935292375766614411, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935292375766614411, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935292375766614411, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935292375766614411, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935292375766614411, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935292375766614411, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935292375766614411, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456073496206711601, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_Name
+      value: PreciousSchoolUniforms_SHINANO
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456073496206711601, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5164330546852653397, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: RootBone.targetObject
+      value: 
+      objectReference: {fileID: 931440781}
+    - target: {fileID: 5164330546852653397, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: ProbeAnchor.targetObject
+      value: 
+      objectReference: {fileID: 931440781}
+    - target: {fileID: 6069599939838139809, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_shapes.Array.data[0].Object.referencePath
+      value: PreciousSchoolUniforms_SHINANO/Blouse_PSU
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069599939838139809, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_shapes.Array.data[1].Object.referencePath
+      value: PreciousSchoolUniforms_SHINANO/Cardigan_PSU
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502553615824243005, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_shapes.Array.data[0].Object.targetObject
+      value: 
+      objectReference: {fileID: 1986160384}
+    - target: {fileID: 8919217069158753500, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164494709058046917, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4456073496206711601, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 266785745}
+    - targetCorrespondingSourceObject: {fileID: 8919217069158753500, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2093569802}
+    - targetCorrespondingSourceObject: {fileID: 8359652791449009809, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2093569801}
+    - targetCorrespondingSourceObject: {fileID: 8359652791449009809, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2093569800}
+    - targetCorrespondingSourceObject: {fileID: 5077291812409409390, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1511955209}
+    - targetCorrespondingSourceObject: {fileID: 8363920493473777918, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1511955208}
+  m_SourcePrefab: {fileID: 100100000, guid: 6992cdc6e5df32d4394aa6d3e61250a9, type: 3}
+--- !u!4 &2093569797 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3935292375766614411, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2093569796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2093569798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8359652791449009809, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2093569796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2093569799 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8919217069158753500, guid: 6992cdc6e5df32d4394aa6d3e61250a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2093569796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2093569800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093569798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a162bb8ec7e24a5abcf457887f1df3fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_inverted: 0
+  m_objects:
+  - Object:
+      referencePath: Shinano_SimpleGelNail_MA/Nail_Foot
+      targetObject: {fileID: 1666578162}
+    Active: 0
+--- !u!114 &2093569801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093569798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db441f589c3407bb6fb5f02ff8ab541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_inverted: 0
+  m_shapes:
+  - Object:
+      referencePath: Body_base
+      targetObject: {fileID: 1986160384}
+    ShapeName: Shrink_Foot
+    ChangeType: 0
+    Value: 100
+  m_threshold: 0.01
+--- !u!114 &2093569802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093569799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db441f589c3407bb6fb5f02ff8ab541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_inverted: 0
+  m_shapes:
+  - Object:
+      referencePath: Body_base
+      targetObject: {fileID: 1986160384}
+    ShapeName: Shrink_Shoulder
+    ChangeType: 1
+    Value: 100
+  - Object:
+      referencePath: Body_base
+      targetObject: {fileID: 1986160384}
+    ShapeName: Shrink_Upper_arm
+    ChangeType: 1
+    Value: 100
+  - Object:
+      referencePath: Body_base
+      targetObject: {fileID: 1986160384}
+    ShapeName: Shrink_Elbow
+    ChangeType: 1
+    Value: 100
+  m_threshold: 0.01
 --- !u!1 &2105171917 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 812633605273379192, guid: 518ab2a9eb4cf0e46a4645d701ef6ace,

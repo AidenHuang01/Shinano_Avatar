@@ -14,16 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Parameters: {fileID: 11400000, guid: 01928f26b6522bf4f99368e79ce6cd5a, type: 2}
   controls:
-  - name: Facial_patrs
-    icon: {fileID: 2800000, guid: 7a53f19c2031c014a8cf3fb39ffe9e8f, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: 11400000, guid: 587ff11cc08443046bbeed36ac034dda, type: 2}
-    subParameters: []
-    labels: []
   - name: Other
     icon: {fileID: 2800000, guid: fd19358199e675d41ba0c18c0e3944b6, type: 3}
     type: 103
